@@ -54,11 +54,11 @@ class IndexPage extends Component {
     return (
       <Layout pageTitle="Realtime Geofencing">
         <main className="container-fluid position-absolute h-100 bg-light">
-					{ 
+					{
 						id ? <div className="row position-absolute w-100 h-100">
 
 							<section className="col-md-9 px-0 border-right border-gray position-relative h-100">
-								<Map person={person} radius={750} people={people} channel={this.channel} onRegionFiltered={this.regionFiltered} />
+								<Map person={person} radius={1000} people={people} channel={this.channel} onRegionFiltered={this.regionFiltered} />
 							</section>
 
 							<section className="col-md-3 position-relative d-flex flex-wrap h-100 align-items-start align-content-between bg-white px-0">
@@ -66,7 +66,7 @@ class IndexPage extends Component {
 							</section>
 
 						</div>
-						
+
 						: <ChoosePersona count={5} people={peopleOffline} onSelected={this.personaSelected} />
 					}
         </main>
