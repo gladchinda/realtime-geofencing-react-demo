@@ -1,6 +1,10 @@
 # Realtime Geofencing Update (Next.js & Pusher)
 
-This project contains the source code for a very simple realtime location-aware application with geofencing updates. Here is a screenshot of the application.
+This project contains the source code for a very simple realtime location-aware application with geofencing updates. 
+
+[View tutorial](https://pusher.com/tutorials/geofencing-nextjs)
+
+Here is a screenshot of the application.
 
 ![App Screenshot](https://i.imgur.com/XvavoKH.png)
 
