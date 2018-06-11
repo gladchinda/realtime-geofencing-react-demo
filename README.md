@@ -1,8 +1,8 @@
 # Realtime Geofencing Update (Next.js & Pusher)
 
-This project contains the source code for a very simple realtime location-aware application with geofencing updates. 
-
 [View tutorial](https://pusher.com/tutorials/geofencing-nextjs)
+
+This project contains the source code for a very simple realtime location-aware application with geofencing updates. 
 
 Here is a screenshot of the application.
 
@@ -51,7 +51,7 @@ PUSHER_APP_CLUSTER=YOUR_APP_CLUSTER
 GMAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
 ```
 
-4. **Start the app** by running the following command. The app will runs on port 3000 except that port is already in use.
+4. **Start the app** by running the following command. The app will run on port 3000 except that port is already in use.
 
 ```sh
 npm run dev
