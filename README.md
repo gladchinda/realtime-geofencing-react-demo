@@ -1,6 +1,6 @@
 # Realtime Geofencing Update (Next.js & Pusher)
 
-[View tutorial](https://pusher.com/tutorials/geofencing-nextjs)
+**You can check out the complete tutorial on the Pusher tutorial repository: [BUILD A GEOFENCING WEB APP USING NEXT.JS](https://pusher.com/tutorials/geofencing-nextjs).**
 
 This project contains the source code for a very simple realtime location-aware application with geofencing updates. 
 
